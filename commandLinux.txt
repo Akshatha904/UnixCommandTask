@@ -1,0 +1,19 @@
+//create directory
+mkdir jquery
+mkdir java
+
+cd jquery
+
+//create text file inside jquery directory
+vi wecome.txt
+
+//move welcome.txt to java directory
+mv jquery/welcome.txt  java
+
+cd java
+
+//remove jquery directory
+rmdir jquery
+
+//list all fill or directories
+ls
